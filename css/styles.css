@@ -160,3 +160,7 @@ swiper-slide {
     background: #fff;
     padding: 15px;
 }
+
+.bg-gray{
+    background-color: #666;
+}
