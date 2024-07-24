@@ -245,3 +245,80 @@ footer {
 .bg-gray{
     background-color: #666;
 }
+
+/* modal swiper  */
+/* body {
+  position: relative;
+  height: 100%;
+} */
+
+/* .modal-body {
+  color: #000;
+  margin: 0;
+  padding: 0;
+} */
+
+.gallery-modal-swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.gallery-modal-swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery-modal-swiper-slide img {
+  display: sw </swiper-slidek;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* body {
+  background: #000;
+  color: #000;
+} */
+
+.gallery-modal-swiper-container {
+  width: 100%;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gallery-modal-swiper-slide {
+  background-size: cover;
+  background-position: center;
+}
+
+.gallery-modal-mySwiper {
+  height: 80%;
+  width: 100%;
+}
+
+.gallery-modal-mySwiper2 {
+  height: 20%;
+  box-sizing: border-box;
+  padding: 10px 0;
+}
+
+.gallery-modal-mySwiper2 swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 0.4;
+}
+
+.gallery-modal-mySwiper2 .swiper-slide-thumb-active {
+  opacity: 1;
+}
+
+.modal-close{
+  right: 35px;
+  top: 20px;
+  z-index: 2;
+}
