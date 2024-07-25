@@ -348,3 +348,7 @@ footer {
     object-fit: cover;
   }
 }
+
+.text-light{
+  color: rgb(248 249 250) !important;
+}
